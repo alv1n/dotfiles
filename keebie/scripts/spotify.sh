@@ -10,7 +10,8 @@ fi
 
 # When spotify is playing music, the title bar displays artist -track
 # This if statement makes sure that the window containing the artist name gets focused
-if [ "$playerctl -p spotify status" == "Paused" ]
+    wmctrl -a Spotify 
+if [ "$playerctl -p spotify status" == "Paused\r" ]
 then
     wmctrl -a Spotify 
 else
