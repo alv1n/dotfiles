@@ -52,7 +52,7 @@ call plug#end()
 "Set autofold for LaTeX files
 let g:vimtex_fold_enabled = 1 
 let g:tex_flavor = 'latex'
-let g:vimtex_view_methor = 'zathura'
+let g:vimtex_view_method = 'zathura'
 "set fillchars=fold:\ 
 
 "Open VimTex TOC with C-T
